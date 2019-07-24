@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Catálogo Películas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="js/programa.js"></script>        
+    </head>
+    <body>
+        <h1>Catálogo Películas</h1>
+        <label>Agregar pelicula (da enter):</label>
+        <input id="ingresoPeli" type="text" name="peliculas" onchange="agregarPeliculas(this)"/>
+        <br/>
+        <div id="resultado" style="color:red"></div>
+        <br/>
+        <label>Escriba el nombre de la pelicula para mostrar su posición (da enter):</label>
+        <input type="text" name="mostrar" onchange="mostrarPeliculas(this)"/>
+        <br/>
+    </body>
+</html>
